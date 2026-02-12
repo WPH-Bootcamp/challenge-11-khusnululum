@@ -11,6 +11,9 @@ const config: Config = {
       spacing: {
         // Custom spacing with 1px ratio (1:1 instead of 1:4)
         // p-1 = 1px, p-4 = 4px, p-16 = 16px
+        1: "1px",
+        4: "4px",
+        16: "16px",
       },
       typography: {
         // Extended typography classes
@@ -22,6 +25,11 @@ const config: Config = {
       },
       colors: {
         // Design system colors will be defined in globals.css
+        primary: {
+          100: "var(--color-primary-100)",
+          200: "var(--color-primary-200)",
+          300: "var(--color-primary-300)",
+        },
       },
     },
   },
